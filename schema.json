@@ -1,0 +1,72 @@
+{
+    "type": "struct",
+    "fields": [
+      {
+        "name": "datetime",
+        "type": "string",
+        "nullable": false,
+        "metadata": {}
+      },
+      {
+        "name": "Accelerometer1RMS",
+        "type": "double",
+        "nullable": false,
+        "metadata": {}
+      },
+      {
+        "name": "Accelerometer2RMS",
+        "type": "double",
+        "nullable": false,
+        "metadata": {}
+      },
+      {
+        "name": "Current",
+        "type": "double",
+        "nullable": false,
+        "metadata": {}
+      },
+      {
+        "name": "Pressure",
+        "type": "double",
+        "nullable": false,
+        "metadata": {}
+      },
+      {
+        "name": "Temperature",
+        "type": "double",
+        "nullable": false,
+        "metadata": {}
+      },
+      {
+        "name": "Thermocouple",
+        "type": "double",
+        "nullable": false,
+        "metadata": {}
+      },
+      {
+        "name": "Voltage",
+        "type": "double",
+        "nullable": false,
+        "metadata": {}
+      },
+      {
+        "name": "Volume Flow RateRMS",
+        "type": "double",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "anomaly",
+        "type": "integer",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "changepoint",
+        "type": "integer",
+        "nullable": false,
+        "metadata": {}
+      }
+    ]
+  }
+  
